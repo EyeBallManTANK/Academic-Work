@@ -1,5 +1,62 @@
-# Classes
-  - This repository is filled with my work from classes I have taken
-  - If you would like a nicer layout go back to my profile or [click here](https://github.com/EyeBallManTANK)
+  - ## Highschool🏫
 
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="600" alt="animated hello">
+      <details>
+      <summary><b>Sophomore Year</b></summary>
+      
+      ### Fall 2022
+      | Course Number | Course Title |
+      | :------------- | :----------: | 
+      | AP | AP Intro to Programming |
+      
+      ### Spring 2023
+      | Course Number | Course Title |
+      | :------------- | :----------: | 
+      | AP | AP Intro to Programming |
+      
+      
+      </details>
+      
+      <details>
+      <summary><b>Senior Year</b></summary>
+      
+      ### Fall 2022
+      | Course Number | Course Title |
+      | :------------- | :----------: | 
+      | [CIS125](https://github.com/EyeBallManTANK/Academic-Work/tree/main/CIS125) | DMACC Online Intro to Programming/Java |
+      | [CIS189](https://github.com/EyeBallManTANK/Academic-Work/tree/main/CIS189) | DMACC Online Python I |
+      | MAT211 | DMACC Calculus I |
+      
+      ### Spring 2023
+      | Course Number | Course Title |
+      | :------------- | :----------: | 
+      | [CIS169](https://github.com/EyeBallManTANK/Academic-Work/tree/main/CIS169) | DMACC Online C# |
+      | [CIS289](https://github.com/EyeBallManTANK/Academic-Work/tree/main/CIS289) | DMACC Online Python II |
+      | MAT217 | DMACC Calculus II |
+      
+      </details>
+
+      <details>
+      <summary>Extra Classes/Projects</summary>
+
+      ### Year 2018-2019
+      | Website | Project |
+      | :------------ | :----------: |
+      | [Code.org](https://studio.code.org/projects/gamelab/soUL_QYf-GB6COfxI166hbMCrXgdkpScTMsAQ8FbnRw) | Parasite |
+        
+      ### Fall 2019
+      | Course Number | Course Title |
+      | :------------- | :----------: | 
+      | HSC101 | Med Emergency Proc & Exploration |
+
+      ### Fall 2023
+      | Course Number | Course Title |
+      | :------------- | :----------: | 
+      | ENG105 | DMACC Online Composition I |
+      
+      
+      ### Spring 2024
+      | Course Number | Course Title |
+      | :------------- | :----------: | 
+      | ENG106 | DMACC Online Composition II |
+    
+      </details>
