@@ -1,3 +1,7 @@
+# Courses
+These are college courses I have taken throughout my career
+  
+  
   - ## Highschool🏫
 
       <details>
