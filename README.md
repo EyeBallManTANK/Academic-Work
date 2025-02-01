@@ -41,7 +41,7 @@
       ### Year 2018-2019
       | Website | Project |
       | :------------ | :----------: |
-      | [Code.org](https://studio.code.org/projects/gamelab/soUL_QYf-GB6COfxI166hbMCrXgdkpScTMsAQ8FbnRw) | Parasite |
+      | [Code.org](https://github.com/EyeBallManTANK/Parasite) | Parasite |
         
       ### Fall 2019
       | Course Number | Course Title |
