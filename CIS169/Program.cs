@@ -1,78 +1,48 @@
-﻿/***************************************************************
-* Name         : BillTipTax
-* Author       : Tate Lawson
-* Created      : 01/20/2025
-* Course       : CIS 169 - C#
-* Version      : 1.0
-* OS           : Windows 11
-* IDE          : Visual Studio 2020 Community
-* Copyright    : This is my own original work based on
-*                      specifications issued by our instructor
-* Description  : This program gives a predetirmened meal a bill
-*                      Input :  None
-*                      Output: Console Writes
-* Academic Honesty: I attest that this is my original work.
-* I have not used unauthorized source code, either modified or
-* unmodified. I have not given other fellow student(s) access
-* to my program.        
-***************************************************************/
+﻿using System;
 
-//A simple function to make life easier and code cleaner
-static decimal exceptionHandling(int type)
+namespace Module4
 {
-
-    string foodName = null;
-
-    //Tells if it is dessert or meal
-    if (type == 1)
+    public class Program
     {
-        foodName = "meal";
-    }
-    else
-    {
-        foodName = "dessert";
-    }
-
-    decimal food = 0;
-
-    //A while loop to keep asking until proper number is put in
-    while (true)
-    {
-        try
+        public static void Main()
         {
+            Console.Write("What day is it? ");
+            string day = Console.ReadLine().Trim();
 
-            Console.WriteLine($"Please input {foodName} amount: ");
-            food = Convert.ToDecimal(Console.ReadLine());
-            break;
+            Console.Write("What time meal is it? (lunch/dinner) ");
+            string mealTime = Console.ReadLine().Trim();
+
+            string mealString = DecideMeal(day, mealTime);
+            Console.WriteLine($"{day} is {mealString} for {mealTime}.");
         }
-        catch (FormatException)
+
+        public static string DecideMeal(string day, string mealTime)
         {
-            Console.WriteLine("That was not correct, try again");
+            day = day.ToLower();
+            mealTime = mealTime.ToLower();
+
+            if (day == "monday")
+            {
+                if (mealTime == "lunch") return "VeggieBurger and Fries";
+                else if (mealTime == "dinner") return "Lasagna";
+            }
+            else if (day == "tuesday")
+            {
+                if (mealTime == "lunch") return "Chili and cornbread";
+                else if (mealTime == "dinner") return "Pizza";
+            }
+            else if (day == "wednesday")
+            {
+                if (mealTime == "lunch") return "Pad Thai";
+                else if (mealTime == "dinner") return "Soup and Salad";
+            }
+            else if (day == "thursday")
+            {
+                if (mealTime == "lunch") return "Baked Potato";
+                else if (mealTime == "dinner") return "Spaghetti";
+            }
+
+            return "Ice Cream!";
         }
     }
-   return food;
 }
-
-const decimal taxRate = 0.07m;
-const decimal tipRate = 0.20m;
-
-//Just calls the function based on if it is a meal or dessert
-decimal meal1 = exceptionHandling(1);
-decimal meal2 = exceptionHandling(1);
-decimal dessert1 = exceptionHandling(2);
-decimal dessert2 = exceptionHandling(2);
-
-
-
-    decimal subtotal = meal1 + meal2 + dessert1 + dessert2;
-    decimal payedTax = subtotal * taxRate;
-    decimal payedTip = subtotal * tipRate;
-
-    decimal overallTotal = subtotal + payedTax + payedTip;
-    decimal personTotal = (overallTotal / 2);
-
-    Console.WriteLine("Subtotal: $" + subtotal);
-    Console.WriteLine("Tax: $" + payedTax);
-    Console.WriteLine("Tip: $" + payedTip);
-    Console.WriteLine("Total: $" + overallTotal);
-    Console.WriteLine("Per Person: $" + personTotal);
